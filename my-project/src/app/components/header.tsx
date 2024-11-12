@@ -18,10 +18,18 @@ export default function Header() {
           </span>
           <nav className="flex items-center gap-16 z-10 text-white">
             <span className="flex items-center gap-10">
-              <Link href="#/">About Us</Link>
-              <Link href="#/">Services</Link>
-              <Link href="#/">Resources</Link>
-              <Link href="#/">Contact Us</Link>
+              <Link href="#/" className="opacity-80 hover:opacity-100">
+                About Us
+              </Link>
+              <Link href="#/" className="opacity-80 hover:opacity-100">
+                Services
+              </Link>
+              <Link href="#/" className="opacity-80 hover:opacity-100">
+                Resources
+              </Link>
+              <Link href="#/" className="opacity-80 hover:opacity-100">
+                Contact Us
+              </Link>
             </span>
             <button>
               <svg
@@ -36,7 +44,7 @@ export default function Header() {
         </div>
         <div className="flex z-10 justify-between">
           <div className="w-1/4 z-10 flex flex-col gap-12">
-            <h1 className="text-white font-semibold text-4xl leading-snug mt-36">
+            <h1 className="text-white font-semibold text-4xl leading-snug mt-40">
               Join us in making a difference
             </h1>
             <p>
@@ -44,7 +52,7 @@ export default function Header() {
               future. Join us on this journey.
             </p>
           </div>
-          <div className="flex w-2/3 gap-24 pl-16 mt-20">
+          <div className="flex w-2/3 gap-24 pl-4 mt-20">
             <div className="flex self-start p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4">
               <div className="flex flex-col gap-4">
                 <span className="text-2xl">Helping Matters</span>
@@ -95,7 +103,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug">
+        <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug mt-16">
           Where Every Contribution Makes a Difference
         </h2>
         <Image
