@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Header is throwing an error but is fine in code and running dev
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BoxClearOne from "./components/BoxClearOne";

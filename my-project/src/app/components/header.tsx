@@ -95,6 +95,7 @@ export default function Header() {
           width={2398}
           height={2058}
           className="absolute top-0 right-0 w-2/3 max-w-2/3 z-0 max-h-screen h-full object-cover"
+          priority
         />
       </header>
     </>
