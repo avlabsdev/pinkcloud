@@ -132,14 +132,14 @@ export default function Header() {
             </Link>
           </div>
         </div>
-        <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug mt-16">
+        <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug mt-16 drop-shadow">
           Where Every Contribution Makes a Difference
         </h2>
         <Image
           src="/pink-cloud-hero-img.png"
           alt="Pink Cloud"
-          width={1199}
-          height={1029}
+          width={2398}
+          height={2058}
           className="absolute top-0 right-0 w-2/3 max-w-2/3 z-0 max-h-screen h-full object-cover"
         />
       </header>
