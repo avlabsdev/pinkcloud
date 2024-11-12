@@ -6,7 +6,10 @@ export default function Header() {
     <>
       <header className="flex flex-col">
         <div className="flex items-center justify-between">
-          <span className="flex gap-2 items-center font-medium text-2xl text-white">
+          <Link
+            href="/"
+            className="flex gap-2 items-center font-medium text-2xl text-white"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
@@ -15,19 +18,31 @@ export default function Header() {
               <path d="M304 160c-74.1 0-135.2 56-143.1 128L96 288c-53 0-96-43-96-96s43-96 96-96l1.1 0C104.9 41.7 151.6 0 208 0c47.9 0 88.8 30.1 104.8 72.4C324.8 67 338 64 352 64c53 0 96 43 96 96c0 12.1-2.2 23.6-6.3 34.2c-11.4 2.3-22.2 6.4-32.1 11.9C383.3 177.7 345.7 160 304 160zM224 512c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2c-1.3-6.7-1.9-13.7-1.9-20.8c0-61.9 50.1-112 112-112c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96l-320 0z" />
             </svg>
             Pink Cloud
-          </span>
+          </Link>
           <nav className="flex items-center gap-16 z-10 text-white">
             <span className="flex items-center gap-10">
-              <Link href="#/" className="opacity-80 hover:opacity-100">
+              <Link
+                href="#/"
+                className="opacity-80 hover:opacity-100 drop-shadow"
+              >
                 About Us
               </Link>
-              <Link href="#/" className="opacity-80 hover:opacity-100">
+              <Link
+                href="#/"
+                className="opacity-80 hover:opacity-100 drop-shadow"
+              >
                 Services
               </Link>
-              <Link href="#/" className="opacity-80 hover:opacity-100">
+              <Link
+                href="#/"
+                className="opacity-80 hover:opacity-100 drop-shadow"
+              >
                 Resources
               </Link>
-              <Link href="#/" className="opacity-80 hover:opacity-100">
+              <Link
+                href="#/"
+                className="opacity-80 hover:opacity-100 drop-shadow"
+              >
                 Contact Us
               </Link>
             </span>
@@ -53,10 +68,15 @@ export default function Header() {
             </p>
           </div>
           <div className="flex w-2/3 gap-24 pl-4 mt-20">
-            <div className="flex self-start p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4">
+            <Link
+              href="#/"
+              className="flex self-start p-8 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4"
+            >
               <div className="flex flex-col gap-4">
-                <span className="text-2xl">Helping Matters</span>
-                <p>Our mission is to empower communities and provide support</p>
+                <span className="text-2xl drop-shadow">Helping Matters</span>
+                <p className="drop-shadow">
+                  Our mission is to empower communities and provide support
+                </p>
               </div>
               <div className="flex flex-col gap-4 justify-between items-end">
                 <span>
@@ -65,6 +85,7 @@ export default function Header() {
                     alt="Arrow Outward"
                     width={42}
                     height={42}
+                    className="drop-shadow"
                   />
                 </span>
                 <span>
@@ -73,14 +94,20 @@ export default function Header() {
                     alt="Dot Icon"
                     width={53}
                     height={49}
+                    className="drop-shadow"
                   />
                 </span>
               </div>
-            </div>
-            <div className="flex self-end mt-60 p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4">
+            </Link>
+            <Link
+              href="#/"
+              className="flex self-end mt-60 p-8 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4"
+            >
               <div className="flex flex-col gap-4">
-                <span className="text-2xl">Helping Matters</span>
-                <p>Our mission is to empower communities and provide support</p>
+                <span className="text-2xl drop-shadow">Helping Matters</span>
+                <p className="drop-shadow">
+                  Our mission is to empower communities and provide support
+                </p>
               </div>
               <div className="flex flex-col gap-4 justify-between items-end">
                 <span>
@@ -89,6 +116,7 @@ export default function Header() {
                     alt="Arrow Outward"
                     width={42}
                     height={42}
+                    className="drop-shadow"
                   />
                 </span>
                 <span>
@@ -97,10 +125,11 @@ export default function Header() {
                     alt="Dot Icon"
                     width={53}
                     height={49}
+                    className="drop-shadow"
                   />
                 </span>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug mt-16">
