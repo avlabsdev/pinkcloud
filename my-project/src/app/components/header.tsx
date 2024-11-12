@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <header className="flex flex-col">
+      <header className="flex flex-col py-16">
         <div className="flex items-center justify-between">
           <Link
             href="/"

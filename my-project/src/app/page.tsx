@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>Main</main>
+      <main className="flex flex-col grow">Main</main>
       <Footer />
     </>
   );
