@@ -42,22 +42,43 @@ export default function Home() {
               <h2 className="text-7xl font-medium leading-snug">
                 Together for a better tomorrow.
               </h2>
-              <p>
-                Whether you&apos;re here to volunteer, donate, or simply learn
-                more, we offer it.
+              <p className="pr-8 leading-relaxed">
+                Whether you’re here to volunteer, donate, or simply learn more,
+                we offer various ways for you to get involved and make a
+                meaningful impact. Together, we can uplift lives, build hope,
+                and create a brighter future. Join us on this journey of
+                compassion and contribute.
               </p>
-              <div className="relative flex h-full w-full mb-48">
+              <div className="relative flex h-full w-full mb-48 mt-8">
                 <Image
                   src="/curved-box.svg"
                   alt="Box"
                   width={837}
                   height={401}
-                  className="absolute left-0"
+                  className="absolute left-0 z-0"
                 />
-                <div className="p-16 px-20">
+                <div className="p-16 px-20 z-10 flex flex-col gap-12">
                   <h3 className="text-4xl w-2/3 leading-snug">
                     Join us in spreading kindness and making a positive impact
                   </h3>
+                  <div className="flex items-start gap-8">
+                    <div>
+                      <Image
+                        src="/arrow-up-right-w-bg.svg"
+                        alt="Arrow"
+                        width={61 * 2}
+                        height={61 * 2}
+                      />
+                    </div>
+                    <div>
+                      <p className="pr-14">
+                        Whether you’re here to volunteer, donate, or simply
+                        learn more, we offer various ways for you to get
+                        involved and make a meaningful impact. Together, we can
+                        uplift lives.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
