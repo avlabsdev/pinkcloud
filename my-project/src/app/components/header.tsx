@@ -70,16 +70,16 @@ export default function Header() {
           <div className="flex w-2/3 gap-24 pl-4 mt-20">
             <Link
               href="#/"
-              className="flex self-start p-8 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-8"
+              className="flex self-start p-8 px-9 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4"
             >
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 justify-between w-3/4">
                 <span className="text-2xl drop-shadow">Helping Matters</span>
                 <p className="drop-shadow">
                   Our mission is to empower communities and provide support.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 justify-between items-end">
-                <span>
+              <div className="flex flex-col gap-6 justify-between items-center w-1/4">
+                <span className="self-end pr-1.5">
                   <Image
                     src="/arrow_outward.svg"
                     alt="Arrow Outward"
@@ -88,7 +88,7 @@ export default function Header() {
                     className="drop-shadow"
                   />
                 </span>
-                <span>
+                <span className="self-end">
                   <Image
                     src="/dot-icon.svg"
                     alt="Dot Icon"
@@ -101,16 +101,16 @@ export default function Header() {
             </Link>
             <Link
               href="#/"
-              className="flex self-end mt-60 p-8 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-8"
+              className="flex self-end mt-60 p-8 px-9 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4"
             >
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 justify-between w-3/4">
                 <span className="text-2xl drop-shadow">Make Contribution</span>
                 <p className="drop-shadow">
-                  Our mission is to empower communities and provide support.
+                  Big or small, monetary or donation, your contributions matter.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 justify-between items-end">
-                <span>
+              <div className="flex flex-col gap-6 justify-between items-center w-1/4">
+                <span className="self-end pr-1.5">
                   <Image
                     src="/arrow_outward.svg"
                     alt="Arrow Outward"
@@ -119,7 +119,7 @@ export default function Header() {
                     className="drop-shadow"
                   />
                 </span>
-                <span>
+                <span className="self-end">
                   <Image
                     src="/dot-icon.svg"
                     alt="Dot Icon"
