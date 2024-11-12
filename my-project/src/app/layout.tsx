@@ -37,6 +37,31 @@ export default function RootLayout({
         />
         <meta name="apple-mobile-web-app-title" content="Pink Cloud" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        <meta property="og:url" content="https://pinkcloud.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Pink Cloud - Sober Support Services by AV Labs"
+        />
+        <meta
+          property="og:description"
+          content="Sober Support Services by AV Labs"
+        />
+        <meta property="og:image" content="/web-app-manifest-512x512.png" />
+
+        <meta name="twitter:card" content="/web-app-manifest-512x512.png" />
+        <meta property="twitter:domain" content="pinkcloud.vercel.app" />
+        <meta property="twitter:url" content="https://pinkcloud.vercel.app/" />
+        <meta
+          name="twitter:title"
+          content="Pink Cloud - Sober Support Services by AV Labs"
+        />
+        <meta
+          name="twitter:description"
+          content="Sober Support Services by AV Labs"
+        />
+        <meta name="twitter:image" content="/web-app-manifest-512x512.png" />
       </head>
       <body className={`${manrope.variable} antialiased`}>{children}</body>
     </html>
