@@ -12,3 +12,7 @@ body {
 p {
   @apply text-white leading-relaxed opacity-75;
 }
+
+.custom-text-pink {
+  color: #be185d;
+}

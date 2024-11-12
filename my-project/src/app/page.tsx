@@ -101,15 +101,15 @@ export default function Home() {
                   iconSrcTwo="./dot-icon.svg"
                 />
               </div>
-              <div className="flex justify-between px-12 my-28">
+              <div className="flex justify-between px-12 mt-24">
                 <div className="flex flex-col gap-4">
-                  <span className="text-pink-700 text-4xl font-bold">
+                  <span className="custom-text-pink text-5xl font-bold">
                     100,000+
                   </span>
                   <span className="font-medium text-2xl">Contributions</span>
                 </div>
                 <div className="flex flex-col gap-4 items-start">
-                  <span className="text-pink-700 text-4xl font-bold">
+                  <span className="custom-text-pink text-5xl font-bold">
                     60,000+
                   </span>
                   <span className="font-medium text-2xl">Communities</span>
