@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Header from "./components/header";
 import Footer from "./components/footer";
@@ -49,7 +50,7 @@ export default function Home() {
                 and create a brighter future. Join us on this journey of
                 compassion and contribute.
               </p>
-              <div className="relative flex h-full w-full mb-48 mt-8">
+              <div className="relative flex justify-center items-center h-full w-full mb-48 mt-16">
                 <Image
                   src="/curved-box.svg"
                   alt="Box"
@@ -62,14 +63,14 @@ export default function Home() {
                     Join us in spreading kindness and making a positive impact
                   </h3>
                   <div className="flex items-start gap-8">
-                    <div>
+                    <Link href="#/">
                       <Image
                         src="/arrow-up-right-w-bg.svg"
                         alt="Arrow"
                         width={61 * 2}
                         height={61 * 2}
                       />
-                    </div>
+                    </Link>
                     <div>
                       <p className="pr-14">
                         Whether you’re here to volunteer, donate, or simply
