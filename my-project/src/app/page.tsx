@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import BoxClearOne from "./components/BoxClearOne";
 
 export default function Home() {
   return (
@@ -83,7 +84,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex w-2/5">
+            <div className="flex w-2/5 flex-col">
               <Image
                 src="/planning.png"
                 alt="Planning"
@@ -91,6 +92,29 @@ export default function Home() {
                 height={1070}
                 className="max-w-full object-cover h-fit"
               />
+              <div className="flex justify-center -mt-20">
+                <BoxClearOne
+                  href="#/"
+                  title="Making a Difference"
+                  copy="Our mission is to empower communities all over the world."
+                  iconSrcOne="./arrow_outward.svg"
+                  iconSrcTwo="./dot-icon.svg"
+                />
+              </div>
+              <div className="flex justify-between px-12 my-28">
+                <div className="flex flex-col gap-4">
+                  <span className="text-pink-700 text-4xl font-bold">
+                    100,000+
+                  </span>
+                  <span className="font-medium text-2xl">Contributions</span>
+                </div>
+                <div className="flex flex-col gap-4 items-start">
+                  <span className="text-pink-700 text-4xl font-bold">
+                    60,000+
+                  </span>
+                  <span className="font-medium text-2xl">Communities</span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
