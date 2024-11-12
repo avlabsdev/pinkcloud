@@ -47,9 +47,9 @@ export default function RootLayout({
           property="og:description"
           content="Sober Support Services by AV Labs"
         />
-        <meta property="og:image" content="/web-app-manifest-192x192.png" />
+        <meta property="og:image" content="/favicon.svg" />
 
-        <meta name="twitter:card" content="/web-app-manifest-192x192.png" />
+        <meta name="twitter:card" content="/favicon.svg" />
         <meta property="twitter:domain" content="pinkcloud.vercel.app" />
         <meta property="twitter:url" content="https://pinkcloud.vercel.app/" />
         <meta
@@ -60,7 +60,7 @@ export default function RootLayout({
           name="twitter:description"
           content="Sober Support Services by AV Labs"
         />
-        <meta name="twitter:image" content="/web-app-manifest-192x192.png" />
+        <meta name="twitter:image" content="/favicon.svg" />
       </head>
       <body className={`${manrope.variable} antialiased`}>{children}</body>
     </html>
