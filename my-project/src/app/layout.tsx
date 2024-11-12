@@ -20,7 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Add in opengraph data */}
       <head>
         <link
           rel="icon"
@@ -48,9 +47,9 @@ export default function RootLayout({
           property="og:description"
           content="Sober Support Services by AV Labs"
         />
-        <meta property="og:image" content="/web-app-manifest-192x192" />
+        <meta property="og:image" content="/web-app-manifest-192x192.png" />
 
-        <meta name="twitter:card" content="/web-app-manifest-192x192" />
+        <meta name="twitter:card" content="/web-app-manifest-192x192.png" />
         <meta property="twitter:domain" content="pinkcloud.vercel.app" />
         <meta property="twitter:url" content="https://pinkcloud.vercel.app/" />
         <meta
