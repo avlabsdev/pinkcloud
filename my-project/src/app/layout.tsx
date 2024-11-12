@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* Add in opengraph data */}
-      <body className={`${manrope.variable} flex flex-col antialiased`}>
+      <body
+        className={`${manrope.variable} flex flex-col relative antialiased`}
+      >
         {children}
       </body>
     </html>
