@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <header className="flex flex-col gap-32">
+      <header className="flex flex-col">
         <div className="flex items-center justify-between">
           <span className="flex gap-2 items-center font-medium text-2xl text-white">
             <svg
@@ -35,8 +35,8 @@ export default function Header() {
           </nav>
         </div>
         <div className="flex z-10 justify-between">
-          <div className="w-1/4 z-10 flex flex-col gap-16">
-            <h1 className="text-white font-semibold text-4xl leading-snug">
+          <div className="w-1/4 z-10 flex flex-col gap-12">
+            <h1 className="text-white font-semibold text-4xl leading-snug mt-36">
               Join us in making a difference
             </h1>
             <p>
@@ -44,17 +44,58 @@ export default function Header() {
               future. Join us on this journey.
             </p>
           </div>
-          <div className="flex items-start">
-            <div className="flex flex-col p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-8">
-              <span className="text-2xl">Helping Matters</span>
-              <p>
-                Our mission is to empower communities and provide individual
-                support
-              </p>
+          <div className="flex w-2/3 gap-24 pl-16 mt-20">
+            <div className="flex self-start p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4">
+              <div className="flex flex-col gap-4">
+                <span className="text-2xl">Helping Matters</span>
+                <p>Our mission is to empower communities and provide support</p>
+              </div>
+              <div className="flex flex-col gap-4 justify-between items-end">
+                <span>
+                  <Image
+                    src="/arrow_outward.svg"
+                    alt="Arrow Outward"
+                    width={42}
+                    height={42}
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/dot-icon.svg"
+                    alt="Dot Icon"
+                    width={53}
+                    height={49}
+                  />
+                </span>
+              </div>
+            </div>
+            <div className="flex self-end mt-60 p-8 px-12 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4">
+              <div className="flex flex-col gap-4">
+                <span className="text-2xl">Helping Matters</span>
+                <p>Our mission is to empower communities and provide support</p>
+              </div>
+              <div className="flex flex-col gap-4 justify-between items-end">
+                <span>
+                  <Image
+                    src="/arrow_outward.svg"
+                    alt="Arrow Outward"
+                    width={42}
+                    height={42}
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/dot-icon.svg"
+                    alt="Dot Icon"
+                    width={53}
+                    height={49}
+                  />
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <h2 className="text-white font-medium text-7xl z-10 w-2/3 leading-snug">
+        <h2 className="flex text-white font-medium text-7xl z-10 w-2/3 leading-snug">
           Where Every Contribution Makes a Difference
         </h2>
         <Image
@@ -62,7 +103,7 @@ export default function Header() {
           alt="Pink Cloud"
           width={1199}
           height={1029}
-          className="absolute top-0 right-0 w-2/3 max-w-2/3 z-0 max-h-screen object-cover"
+          className="absolute top-0 right-0 w-2/3 max-w-2/3 z-0 max-h-screen h-full object-cover"
         />
       </header>
     </>
