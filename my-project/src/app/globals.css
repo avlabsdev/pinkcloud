@@ -6,7 +6,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
-  @apply container mx-auto bg-black;
+  @apply container mx-auto bg-black text-white;
 }
 
 p {
