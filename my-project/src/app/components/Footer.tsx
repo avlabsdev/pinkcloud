@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 import React from "react";
 import Link from "next/link";
@@ -24,13 +24,31 @@ export default function Footer() {
         </span>
         <span className="flex items-center gap-10">
           <Link className="opacity-80 hover:opacity-100" href="#/">
-            Icon
+            <Image
+              src="./globe-pointer-regular.svg"
+              alt="Logo"
+              width={24}
+              height={24}
+              className="opacity-80 hover:opacity-100"
+            />
           </Link>
           <Link className="opacity-80 hover:opacity-100" href="#/">
-            Icon
+            <Image
+              src="./github-brands-solid.svg"
+              alt="Logo"
+              width={24}
+              height={24}
+              className="opacity-80 hover:opacity-100"
+            />
           </Link>
           <Link className="opacity-80 hover:opacity-100" href="#/">
-            Icon
+            <Image
+              src="./dribbble-brands-solid.svg"
+              alt="Logo"
+              width={24}
+              height={24}
+              className="opacity-80 hover:opacity-100"
+            />
           </Link>
         </span>
       </footer>
