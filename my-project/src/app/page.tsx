@@ -61,8 +61,9 @@ export default function Home() {
                   className="absolute left-0 z-0"
                 />
                 <div className="p-16 px-20 z-10 flex flex-col gap-12">
-                  <h3 className="text-4xl w-2/3 leading-snug">
-                    Join us in spreading kindness and making a positive impact
+                  <h3 className="text-4xl w-4/5 leading-snug">
+                    Join us in spreading kindness & making positive impacts on
+                    others
                   </h3>
                   <div className="flex items-start gap-8">
                     <Link href="#/">
