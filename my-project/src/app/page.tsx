@@ -137,7 +137,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-end justify-end w-2/5">
               <div className="mb-auto flex flex-col items-end gap-4">
-                <span className="text-5xl font-semibold">60K+</span>
+                <span className="text-5xl font-semibold mt-8">60K+</span>
                 <span className="font-medium text-3xl font-poppins">
                   Communities
                 </span>
