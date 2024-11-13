@@ -10,9 +10,18 @@ body {
 }
 
 p {
-  @apply text-white leading-relaxed opacity-75;
+  @apply text-white leading-relaxed opacity-75 text-lg;
 }
 
 .custom-text-pink {
   color: #be185d;
+}
+
+.bg-image-hands-in {
+  background-image: url("../../public/hands-in-lg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }

@@ -66,8 +66,8 @@ export default function Header() {
               Join us in making a difference
             </h1>
             <p>
-              Together, we can uplift lives, build hope, and create a brighter
-              future. Join us on this journey.
+              Together, we can uplift lives, build hope, and create brighter
+              futures. Join us!
             </p>
           </div>
           <div className="flex w-2/3 gap-24 pl-4 mt-20">

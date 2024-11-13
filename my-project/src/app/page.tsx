@@ -51,7 +51,7 @@ export default function Home() {
                 and create a brighter future. Join us on this journey of
                 compassion and contribute.
               </p>
-              <div className="relative flex justify-center items-center h-full w-full mb-48 mt-16">
+              <div className="relative flex justify-center items-center h-full w-full mb-6 mt-16">
                 <Image
                   src="/curved-box.svg"
                   alt="Box"
@@ -116,6 +116,21 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className="bg-image-hands-in rounded-xl p-24 py-28 flex gap-16 pt-64">
+            <div className="flex flex-col gap-12 w-3/5">
+              <span className="text-6xl font-medium leading-snug">
+                Where every helping hand counts!
+              </span>
+              <p className="leading-loose text-lg">
+                Whether you’re here to volunteer, donate, or simply learn more,
+                we offer various ways for you to get involved and make a
+                meaningful impact.
+              </p>
+            </div>
+            <div className="flex justify-end w-2/5">Second half.</div>
           </div>
         </section>
       </main>
