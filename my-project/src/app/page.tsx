@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BoxClearOne from "./components/BoxClearOne";
+import ClearBoxRoundedFull from "./components/ClearBoxRoundedFull";
 
 export default function Home() {
   return (
@@ -130,7 +131,9 @@ export default function Home() {
                 meaningful impact.
               </p>
             </div>
-            <div className="flex justify-end w-2/5">Second half.</div>
+            <div className="flex justify-end mt-auto w-2/5">
+              <ClearBoxRoundedFull copy="Spreading Kindness & Love to Those In Need" />
+            </div>
           </div>
         </section>
       </main>
