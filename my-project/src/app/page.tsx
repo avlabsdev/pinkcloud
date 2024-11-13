@@ -179,7 +179,7 @@ export default function Home() {
                   />
                 </g>
               </svg>
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Empowering community, uplifting lives
               </span>
               <p className="px-6 mt-4">
@@ -217,7 +217,7 @@ export default function Home() {
                 </g>
               </svg>
 
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Where every helping hand counts!
               </span>
               <p className="px-6 mt-4">
@@ -255,7 +255,7 @@ export default function Home() {
                 </g>
               </svg>
 
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Join us in spreading kindness
               </span>
               <p className="px-6 mt-4">
@@ -293,7 +293,7 @@ export default function Home() {
                 </g>
               </svg>
 
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Be a part of something bigger
               </span>
               <p className="px-6 mt-4">
@@ -331,7 +331,7 @@ export default function Home() {
                 </g>
               </svg>
 
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Where every contribution makes
               </span>
               <p className="px-6 mt-4">
@@ -369,7 +369,7 @@ export default function Home() {
                 </g>
               </svg>
 
-              <span className="px-6 flex text-3xl leading-snug">
+              <span className="px-6 flex text-3xl leading-snug font-medium">
                 Your compassion, our mission
               </span>
               <p className="px-6 mt-4">
