@@ -8,7 +8,7 @@ export default function Footer() {
     <>
       <footer className="flex items-center justify-between text-white z-10 mt-auto py-16">
         <p>&copy; AV Labs 2024. All rights reserved.</p>
-        <span className="flex items-center gap-10">
+        <span className="flex items-center gap-12">
           <Link
             className="opacity-80 hover:opacity-100"
             href="/terms-of-service"
@@ -22,8 +22,12 @@ export default function Footer() {
             Cookies
           </Link>
         </span>
-        <span className="flex items-center gap-10">
-          <Link className="opacity-80 hover:opacity-100" href="#/">
+        <span className="flex items-center gap-6">
+          <Link
+            className="opacity-80 hover:opacity-100"
+            href="https://avlabs.dev"
+            target="_blank"
+          >
             <Image
               src="./globe-pointer-regular.svg"
               alt="Logo"
@@ -32,7 +36,11 @@ export default function Footer() {
               className="opacity-80 hover:opacity-100"
             />
           </Link>
-          <Link className="opacity-80 hover:opacity-100" href="#/">
+          <Link
+            className="opacity-80 hover:opacity-100"
+            href="https://github.com/avlabsdev"
+            target="_blank"
+          >
             <Image
               src="./github-brands-solid.svg"
               alt="Logo"
@@ -41,7 +49,11 @@ export default function Footer() {
               className="opacity-80 hover:opacity-100"
             />
           </Link>
-          <Link className="opacity-80 hover:opacity-100" href="#/">
+          <Link
+            className="opacity-80 hover:opacity-100"
+            href="https://dribbble.com/avlabsdev"
+            target="_blank"
+          >
             <Image
               src="./dribbble-brands-solid.svg"
               alt="Logo"
