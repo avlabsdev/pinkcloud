@@ -9,6 +9,10 @@ body {
   @apply container mx-auto bg-black text-white;
 }
 
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
 p {
   @apply text-white leading-relaxed opacity-75 text-lg;
 }

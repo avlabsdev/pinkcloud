@@ -8,6 +8,12 @@ const manrope = localFont({
   weight: "100 900",
 });
 
+const poppins = localFont({
+  src: "./fonts/Poppins-Regular.woff2",
+  variable: "--font-poppins",
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   title: "Pink Cloud - Sober Support Services by AV Labs",
   description: "Sober Support Services by AV Labs",
@@ -62,7 +68,9 @@ export default function RootLayout({
         />
         <meta name="twitter:image" content="/favicon.svg" />
       </head>
-      <body className={`${manrope.variable} antialiased`}>{children}</body>
+      <body className={`${manrope.variable} ${poppins} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

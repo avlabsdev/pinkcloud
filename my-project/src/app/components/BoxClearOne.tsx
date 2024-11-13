@@ -17,7 +17,7 @@ export default function BoxClear(props: BoxClearProps) {
     <>
       <Link
         href={href}
-        className="flex self-start p-8 px-9 backdrop-blur-md bg-white/0 rounded-xl border border-white border-opacity-25 text-white w-3/4 gap-4"
+        className="flex self-start p-8 px-10 backdrop-blur-md bg-white/0 rounded-3xl border border-white border-opacity-25 text-white w-3/4 gap-4"
       >
         <div className="flex flex-col gap-4 justify-between w-3/4">
           <span className="text-2xl drop-shadow">{title}</span>

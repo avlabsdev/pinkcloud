@@ -105,15 +105,19 @@ export default function Home() {
               <div className="flex justify-between px-12 mt-24">
                 <div className="flex flex-col gap-4">
                   <span className="custom-text-pink text-5xl font-bold">
-                    100,000+
+                    100K+
                   </span>
-                  <span className="font-medium text-2xl">Contributions</span>
+                  <span className="font-medium text-3xl font-poppins">
+                    Contributions
+                  </span>
                 </div>
                 <div className="flex flex-col gap-4 items-start">
                   <span className="custom-text-pink text-5xl font-bold">
-                    60,000+
+                    60K+
                   </span>
-                  <span className="font-medium text-2xl">Communities</span>
+                  <span className="font-medium text-3xl font-poppins">
+                    Communities
+                  </span>
                 </div>
               </div>
             </div>
@@ -131,8 +135,16 @@ export default function Home() {
                 meaningful impact.
               </p>
             </div>
-            <div className="flex justify-end mt-auto w-2/5">
-              <ClearBoxRoundedFull copy="Spreading Kindness & Love to Those In Need" />
+            <div className="flex flex-col items-end justify-end w-2/5">
+              <div className="mb-auto flex flex-col items-end gap-4">
+                <span className="text-5xl font-semibold">60K+</span>
+                <span className="font-medium text-3xl font-poppins">
+                  Communities
+                </span>
+              </div>
+              <div>
+                <ClearBoxRoundedFull copy="Spreading Kindness & Love to Those In Need" />
+              </div>
             </div>
           </div>
         </section>
