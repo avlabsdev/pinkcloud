@@ -9,16 +9,13 @@ export default function Footer() {
       <footer className="flex items-center justify-between text-white z-10 mt-auto py-16">
         <p>&copy; AV Labs 2024. All rights reserved.</p>
         <span className="flex items-center gap-12">
-          <Link
-            className="opacity-80 hover:opacity-100"
-            href="/terms-of-service"
-          >
+          <Link className="opacity-80 hover:opacity-100" href="#/">
             Terms
           </Link>
-          <Link className="opacity-80 hover:opacity-100" href="/privacy-policy">
+          <Link className="opacity-80 hover:opacity-100" href="#/">
             Privacy
           </Link>
-          <Link className="opacity-80 hover:opacity-100" href="/cookie-policy">
+          <Link className="opacity-80 hover:opacity-100" href="#/">
             Cookies
           </Link>
         </span>
