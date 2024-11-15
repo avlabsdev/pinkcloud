@@ -184,8 +184,7 @@ export default function Home() {
                 Empowering community, uplifting lives
               </span>
               <p className="px-6 mt-4">
-                Whether you’re here to volunteer, donate, or simply learn more,
-                we offer{" "}
+                We know that not all communities are created and kept up equally{" "}
               </p>
             </Link>
             <Link
@@ -260,8 +259,7 @@ export default function Home() {
                 Join us in spreading kindness
               </span>
               <p className="px-6 mt-4">
-                Whether you’re here to volunteer, donate, or simply learn more,
-                we offer{" "}
+                Help us in assisting families and communities grow and prosper{" "}
               </p>
             </Link>
             <Link
@@ -295,11 +293,11 @@ export default function Home() {
               </svg>
 
               <span className="px-6 flex text-3xl leading-snug font-medium">
-                Be a part of something bigger
+                Be a part of something bigger than yourself
               </span>
               <p className="px-6 mt-4">
-                Whether you’re here to volunteer, donate, or simply learn more,
-                we offer{" "}
+                We don&apos;t do this for praise; we really, truly care about
+                helping people{" "}
               </p>
             </Link>
             <Link
@@ -333,7 +331,7 @@ export default function Home() {
               </svg>
 
               <span className="px-6 flex text-3xl leading-snug font-medium">
-                Where every contribution makes
+                Where every contribution matters
               </span>
               <p className="px-6 mt-4">
                 Whether you’re here to volunteer, donate, or simply learn more,
@@ -375,7 +373,7 @@ export default function Home() {
               </span>
               <p className="px-6 mt-4">
                 Whether you’re here to volunteer, donate, or simply learn more,
-                we offer{" "}
+                we welcome you{" "}
               </p>
             </Link>
           </div>
