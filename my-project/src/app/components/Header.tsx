@@ -1,9 +1,17 @@
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BoxClearOne from "./BoxClearOne";
 import BoxClearTwo from "./BoxClearTwo";
 
 export default function Header() {
+  const [isToggled, setIsToggled] = useState(false);
+
+  const handleToggle = () => {
+    setIsToggled(!isToggled);
+  };
   return (
     <>
       <header className="flex flex-col py-16">
@@ -23,40 +31,52 @@ export default function Header() {
             Pink Cloud
           </Link>
           <nav className="flex items-center gap-16 z-10 text-white">
-            <span className="flex items-center gap-10">
-              <Link
-                href="#/"
-                className="opacity-80 hover:opacity-100 drop-shadow"
-              >
-                About Us
-              </Link>
-              <Link
-                href="#/"
-                className="opacity-80 hover:opacity-100 drop-shadow"
-              >
-                Services
-              </Link>
-              <Link
-                href="#/"
-                className="opacity-80 hover:opacity-100 drop-shadow"
-              >
-                Resources
-              </Link>
-              <Link
-                href="#/"
-                className="opacity-80 hover:opacity-100 drop-shadow"
-              >
-                Contact Us
-              </Link>
-            </span>
-            <button>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="w-8 fill-white"
-              >
-                <path d="M0 88C0 74.7 10.7 64 24 64l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 112C10.7 112 0 101.3 0 88zM64 248c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L88 272c-13.3 0-24-10.7-24-24zM448 408c0 13.3-10.7 24-24 24L24 432c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0c13.3 0 24 10.7 24 24z" />
-              </svg>
+            {isToggled && (
+              <span className="flex items-center gap-10">
+                <Link
+                  href="#/"
+                  className="opacity-80 hover:opacity-100 drop-shadow"
+                >
+                  About Us
+                </Link>
+                <Link
+                  href="#/"
+                  className="opacity-80 hover:opacity-100 drop-shadow"
+                >
+                  Services
+                </Link>
+                <Link
+                  href="#/"
+                  className="opacity-80 hover:opacity-100 drop-shadow"
+                >
+                  Resources
+                </Link>
+                <Link
+                  href="#/"
+                  className="opacity-80 hover:opacity-100 drop-shadow"
+                >
+                  Contact Us
+                </Link>
+              </span>
+            )}
+            <button onClick={handleToggle}>
+              {isToggled ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                  className="w-6 fill-white"
+                >
+                  <path d="M224 256l135-135c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 57 75.7c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 11.7 391c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l135 135c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256z" />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  className="w-8 fill-white"
+                >
+                  <path d="M0 88C0 74.7 10.7 64 24 64l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 112C10.7 112 0 101.3 0 88zM64 248c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L88 272c-13.3 0-24-10.7-24-24zM448 408c0 13.3-10.7 24-24 24L24 432c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0c13.3 0 24 10.7 24 24z" />
+                </svg>
+              )}
             </button>
           </nav>
         </div>
